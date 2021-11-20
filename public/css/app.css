@@ -1,0 +1,481 @@
+/* home-page styles */
+.main-body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.big-container {
+  padding: 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/images/pizzahr.jpg");
+  background-size: cover;
+  height: 650px;
+  text-align: center;
+  z-index: -3000;
+}
+
+#big-head {
+  /* text-align:right; */
+  color: #f6eec9;
+  text-align: center;
+  font-size: 5rem;
+  z-index: 100;
+  padding-top: 100px;
+  font-family: "Courgette", cursive;
+}
+
+#main-button {
+  margin-top: 100px;
+}
+
+.btn-main {
+  border-radius: 0;
+  color: #f6eec9;
+  font-family: "Mali", cursive;
+  font-size: 22px;
+  font-weight: 100;
+  padding: 10px;
+  background-color: rgba(164, 24, 24, 0.9);
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #000000 1px;
+  text-decoration: none !important;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-main:hover {
+  transition: all 0.3s ease-in-out;
+  background: #799351;
+  border: solid #000000 1px;
+  border-radius: 0;
+  text-decoration: none !important;
+}
+
+.explore-link:visited {
+  text-decoration: none !important;
+  color: #f6eec9 !important;
+}
+
+.fa-arrow-right {
+  padding-left: 10px;
+}
+
+/* navbar */
+.navbar {
+  background-color: rgba(121, 5, 5, 0.9);
+  font-family: "Mali", cursive;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 5px;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.nav-link {
+  color: #f6eec9 !important;
+}
+
+.nav-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10%;
+}
+
+.nav-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #799351;
+}
+
+.dropdown-item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #ffa36c !important;
+  text-decoration: none !important;
+}
+
+.last-item {
+  background: #ffa36c;
+}
+
+/* brand */
+/* .navbar-brand {
+  font-family: "Nosifer", cursive;
+  color: #f6eec9 !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px  #FFA36C;
+  background-color: #0099cc;
+  border-radius: 50px;
+  padding:0 10px;
+  margin:10px 0;
+  text-align: center;
+  border: 3px solid #ffff00 !important;
+} */
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.logo-text {
+  font-family: "Londrina Solid", cursive !important;
+  font-weight: 300;
+  color: #ffa36c !important;
+  /* text-shadow: 2px 2px 4px  #FFA36C; */
+  font-size: 1.7rem;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+/* reviews section */
+#sec2 {
+  background-color: #f6eec9;
+  text-align: center;
+}
+
+.small-img {
+  /*  */
+  border-radius: 20%;
+  border: 5px solid #799351;
+  /* box-shadow: 3px 3px 3px 3px #799351; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  transition: transform 0.99s ease-in-out;
+  transform: scale(1);
+  width: 300px;
+  height: 300px;
+}
+
+.img-div {
+  padding-left: 100px;
+  padding-right: 0;
+  margin-right: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.small-img:hover {
+  transform: scale(1.04);
+}
+
+.text-div {
+  text-align: left;
+  padding-top: 45px;
+  padding-right: 90px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.text-div h1 {
+  font-family: "Courgette", cursive;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #ffa36c;
+}
+
+.about {
+  line-height: 2rem;
+  margin-top: 30px;
+  font-family: "Mali", cursive;
+  font-size: 1.1rem;
+  font-weight: 600;
+  /* color:#ffa36c; */
+}
+
+/* sec3 */
+#sec3 {
+  height: 700px;
+  background-color: rgba(121, 5, 5, 0.9);
+  text-align: center;
+}
+
+.footer-heading {
+  color: #f6eec9;
+  font-family: "Courgette", cursive;
+  padding-top: 80px;
+  font-size: 3rem;
+  width: 70%;
+  margin: auto;
+}
+
+.login-body {
+  /* background-color:#f6eec9 !important; */
+  background: url("/images/loginback2.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+  text-align: center;
+  font: 600 16px "Montserrat" sans-serif;
+}
+
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  min-height: 600px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  left: 80px;
+  top: 10px;
+  background: url("/images/illu.webp") no-repeat center;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-snip {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 90px 70px 50px 70px;
+  background: rgba(121, 5, 5, 0.9);
+}
+
+.login-snip .login,
+.login-snip .sign-up-form {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: all 0.4s linear;
+}
+
+.login-snip .sign-in,
+.login-snip .sign-up,
+.login-space .group .check {
+  display: none;
+}
+
+.login-snip .tab,
+.login-space .group .label,
+.login-space .group .button {
+  text-transform: uppercase;
+}
+
+.login-snip .tab {
+  font-size: 22px;
+  margin-right: 15px;
+  padding-bottom: 5px;
+  margin: 0 15px 10px 0;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+
+.login-snip .sign-in:checked + .tab,
+.login-snip .sign-up:checked + .tab {
+  color: #f6eec9;
+  border-color: #1161ee;
+}
+
+.login-space {
+  min-height: 345px;
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+}
+
+.login-space .group {
+  margin-bottom: 15px;
+}
+
+.login-space .group .label,
+.login-space .group .input,
+.login-space .group .button {
+  width: 100%;
+  color: #f6eec9;
+  display: block;
+}
+
+.login-space .group .input,
+.login-space .group .button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.login-space .group input[data-type=password] {
+  -webkit-text-security: circle;
+}
+
+.login-space .group .label {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.login-space .group .button {
+  background: #1161ee;
+}
+
+.login-space .group label .icon {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.login-space .group label .icon:before,
+.login-space .group label .icon:after {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background: #f6eec9;
+  position: absolute;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.login-space .group label .icon:before {
+  left: 3px;
+  width: 5px;
+  bottom: 6px;
+  transform: scale(0) rotate(0);
+}
+
+.login-space .group label .icon:after {
+  top: 6px;
+  right: 0;
+  transform: scale(0) rotate(0);
+}
+
+.login-space .group .check:checked + label {
+  color: #f6eec9;
+}
+
+.login-space .group .check:checked + label .icon {
+  background: #1161ee;
+}
+
+.login-space .group .check:checked + label .icon:before {
+  transform: scale(1) rotate(45deg);
+}
+
+.login-space .group .check:checked + label .icon:after {
+  transform: scale(1) rotate(-45deg);
+}
+
+.login-snip .sign-in:checked + .tab + .sign-up + .tab + .login-space .login {
+  transform: rotate(0);
+}
+
+.login-snip .sign-up:checked + .tab + .login-space .sign-up-form {
+  transform: rotate(0);
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+  display: block;
+}
+
+.hr {
+  height: 2px;
+  margin: 60px 0 10px 0;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.foot {
+  text-align: center;
+  margin: 0;
+  color: #f6eec9;
+}
+
+.card {
+  width: 500px;
+  left: 100px;
+}
+
+::-moz-placeholder {
+  color: #b3b3b3;
+}
+
+:-ms-input-placeholder {
+  color: #b3b3b3;
+}
+
+::placeholder {
+  color: #b3b3b3;
+}
+
+.menu-body {
+  background: url("/images/loginback2.jpg");
+  background-size: cover;
+  overflow-x: hidden;
+  font: 600 16px "Montserrat" sans-serif;
+}
+
+.menu-body h1 {
+  color: #f6eec9;
+  font-family: "Courgette", cursive;
+  font-size: 30px;
+}
+
+.size {
+  background: #799351;
+}
+
+.add-to-cart {
+  background: #f6eec9;
+  border: 2px solid #ffa36c;
+  color: #ffa36c;
+  transition: all 0.3s ease-in-out;
+}
+.add-to-cart:hover {
+  background: #ffa36c;
+  border-color: #f6eec9;
+  color: #f6eec9;
+  text-decoration: none !important;
+}
+
+.menu-card-single {
+  background: #f6eec9;
+  border-radius: 7px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cart-body {
+  background: #f6eec9;
+}
+.cart-body .amount {
+  color: #ffa36c;
+}
+
+.cart-button {
+  background: #f6eec9;
+  border: 2px solid #ffa36c;
+  color: #ffa36c;
+  transition: all 0.3s ease-in-out;
+}
+.cart-button:hover {
+  background: #ffa36c;
+  border-color: #f6eec9;
+  color: #f6eec9;
+  text-decoration: none !important;
+}

@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My Cart</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <%- include('../link_layout') -%>
+  </head>
+  <body class="cart-body">
+      <%- include('../layout')-%>
+      <section class="empty-cart py-16">
+          <div class="order container mx-auto w-1/2">
+              <div class="flex items-center border-b border-green-700 pb-4">
+                  <img src="/images/cart-black.png" alt="">
+                  <h1 class="font-bold ml-4 text-2xl">Order Summary</h1>
+              </div>
+              <div class="pizza-list">
+                  <div class="flex items-center my-8">
+                  <img class="w-24" src="/images/pizza.png" alt="">
+                  <div class=" flex-1 ml-4">
+                      <h1 class="text-lg">Marinara</h1>
+                      <span class="text-sm" >MEDIUM</span>
+                  </div>
+                  <span class="flex-1"> 1 Pcs </span>
+                  <span class="font-bold text-lg">₹300</span>
+                </div>
+                <div class="flex items-center my-8">
+                    <img class="w-24" src="/images/pizza.png" alt="">
+                    <div class=" flex-1 ml-4">
+                        <h1 class="text-lg">Marinara</h1>
+                        <span class="text-sm" >MEDIUM</span>
+                    </div>
+                    <span class="flex-1"> 1 Pcs </span>
+                    <span class="font-bold text-lg">₹300</span>
+                  </div>
+                  <div class="flex items-center my-8">
+                    <img class="w-24" src="/images/pizza.png" alt="">
+                    <div class=" flex-1 ml-4">
+                        <h1 class="text-lg">Marinara</h1>
+                        <span class="text-sm" >MEDIUM</span>
+                    </div>
+                    <span class="flex-1"> 1 Pcs </span>
+                    <span class="font-bold text-lg">₹300</span>
+                  </div>
+              </div>
+              <hr class="border-green-700">
+              <div class="text-right py-4">
+                <div>
+                  <span class="text-lg font-bold">Total Amount:</span>
+                  <span class="amount text-xl font-bold ml-2">₹300</span>
+                </div>
+                <div>
+                  <form action="" class="mt-12">
+                    <input class="border border-green-700 p-2 w-1/2 mb-4" type="text" placeholder="Phone number">
+                    <input class="border border-green-700 p-2 w-1/2" type="text" placeholder="Address">
+                    
+                    <div>
+                      <!-- <button class="cart-button px-6 py-2 rounded-full font-bold mt-6"type="submit">Order Now</button> -->
+                         <a href="" class="inline-block cursor-pointer cart-button px-6 py-2 rounded-full font-bold mt-6 px-6">Login to continue</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+           
+          </div>
+          <!-- <section class="py-16">
+          <div class="container mx-auto text-center">
+              <h1 class="text-3xl font-bold mb-2">
+                  Cart Empty🙁
+              </h1>
+              <p class="text-gray-500 text-lg mb-12">
+                  You probably haven't ordered a pizza yet.<br>
+                  To order a pizza, go to the main page.
+                </p>
+                  <img class="w-1/3 mx-auto" src="/images/empty-cart.png" alt="empty cart"/>
+                  <a href="/" class="inline-block px-6 py-2 rounded-full cart-button font-bold mt-12">Go back</a>
+              
+          </div>
+      </section> -->
+      
+      </section>
+      
+</body>
