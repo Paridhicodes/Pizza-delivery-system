@@ -23,12 +23,14 @@
     "express-flash": "^0.0.2",
     "express-session": "^1.17.2",
     "mongoose": "^6.0.13",
+    "node": "^17.1.0",
+    "session": "^0.1.0",
     "tailwindcss": "^2.2.19"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
     "install": "^0.13.0",
-    "laravel-mix": "^6.0.37",
+    "laravel-mix": "^6.0.39",
     "nodemon": "^2.0.14",
     "resolve-url-loader": "4.0.0",
     "sass": "^1.43.4",

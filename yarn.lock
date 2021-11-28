@@ -2433,6 +2433,11 @@ didyoumean@^1.2.2:
   resolved "https://registry.yarnpkg.com/didyoumean/-/didyoumean-1.2.2.tgz#989346ffe9e839b4555ecf5666edea0d3e8ad037"
   integrity sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==
 
+diff@^4.0.1:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
+  integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
+
 diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -2778,6 +2783,11 @@ express@^4.17.1:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
+eyes@~0.1.6:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/eyes/-/eyes-0.1.8.tgz#62cf120234c683785d902348a800ef3e0cc20bc0"
+  integrity sha1-Ys8SAjTGg3hdkCNIqADvPgzCC8A=
+
 fast-deep-equal@^3.1.1:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -2993,7 +3003,7 @@ glob-to-regexp@^0.4.1:
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz#c75297087c851b9a578bd217dd59a92f59fe546e"
   integrity sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==
 
-glob@^7.0.0, glob@^7.1.3, glob@^7.2.0:
+glob@^7.0.0, glob@^7.1.2, glob@^7.1.3, glob@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
   integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
@@ -3758,10 +3768,10 @@ kruptein@^3.0.0:
   dependencies:
     asn1.js "^5.4.1"
 
-laravel-mix@^6.0.37:
-  version "6.0.37"
-  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.37.tgz#43e953399b66cb5205ed2b7c23cbb3fd0315f2f4"
-  integrity sha512-mue45XrV7nGGvueP7b5mPlTsT3PUDiaTov1B11OnIr+BzaJXMMmf/r3qLRB4dmbXb5WgoQdk/3tVxZ49b2prbQ==
+laravel-mix@^6.0.39:
+  version "6.0.39"
+  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.39.tgz#166090f44bc3fe14de4d013e8dd975e3ccd1c42e"
+  integrity sha512-ChTRKSNx9ViD3Xw1+BDQUZ0PLETcBrXlM7vNmomoDUZBXLUurVUJ9oaRUdGmH/WENNqL0qQ8FFxjq+6U368Nlg==
   dependencies:
     "@babel/core" "^7.15.8"
     "@babel/plugin-proposal-object-rest-spread" "^7.15.6"
@@ -4172,6 +4182,11 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+node-bin-setup@^1.0.0:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
+  integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
+
 node-emoji@^1.11.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-1.11.0.tgz#69a0150e6946e2f115e9d7ea4df7971e2628301c"
@@ -4229,6 +4244,13 @@ node-releases@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.1.tgz#3d1d395f204f1f2f29a54358b9fb678765ad2fc5"
   integrity sha512-CqyzN6z7Q6aMeF/ktcMVTzhAHCEpf8SOarwpzpf8pNBY2k5/oM34UHldUwp8VKI7uxct2HxSRdJjBaZeESzcxA==
+
+node@^17.1.0:
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-17.1.0.tgz#a18a8f388e78381dbaeb00ae7a4414e99fa1ca79"
+  integrity sha512-1gg810R7sKtFkCYMdIhOyYDCuRJZyLvP+lTX8Z9AMAiUdHPoeNu0KQN59CzBud5L/vMtFPkbsCwWOy1aTYOL8g==
+  dependencies:
+    node-bin-setup "^1.0.0"
 
 nodemon@^2.0.14:
   version "2.0.14"
@@ -5414,6 +5436,13 @@ serve-static@1.14.1:
     parseurl "~1.3.3"
     send "0.17.1"
 
+session@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/session/-/session-0.1.0.tgz#6ae9aa6f26093be31ed2005bcd426ae80aa3a085"
+  integrity sha1-aumqbyYJO+Me0gBbzUJq6AqjoIU=
+  dependencies:
+    vows "*"
+
 setimmediate@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
@@ -6018,6 +6047,15 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vows@*:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/vows/-/vows-0.8.3.tgz#36e353c2bca3a93902fc32eb8c5baab2e3a93f10"
+  integrity sha512-PVIxa/ovXhrw5gA3mz6M+ZF3PHlqX4tutR2p/y9NWPAaFVKcWBE8b2ktfr0opQM/qFmcOVWKjSCJVjnYOvjXhw==
+  dependencies:
+    diff "^4.0.1"
+    eyes "~0.1.6"
+    glob "^7.1.2"
 
 vue-style-loader@^4.1.3:
   version "4.1.3"

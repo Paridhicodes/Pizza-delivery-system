@@ -1,4 +1,6 @@
 @import './variables';
+@import '~noty/src/noty.scss';
+@import '~noty/src/themes/mint.scss';
 /* home-page styles */
 .main-body {
     font-family: "Montserrat", sans-serif;
@@ -212,7 +214,7 @@
     background: url("/images/loginback2.jpg");
     background-size: cover;
     overflow-x: hidden;
-    // overflow-y: hidden;
+    overflow-y: hidden;
     text-align: center;
     font: 600 16px 'Montserrat' sans-serif;
 }
@@ -278,7 +280,7 @@
 .login-snip .sign-in:checked+.tab,
 .login-snip .sign-up:checked+.tab {
   color: #f6eec9;
-  border-color: #1161ee;
+  border-color: $green;
 }
 
 .login-space {
@@ -319,7 +321,7 @@
 }
 
 .login-space .group .button {
-  background: #1161ee;
+  background: $green;
 }
 
 .login-space .group label .icon {
@@ -475,4 +477,8 @@
     color:$primary;
     text-decoration:none !important;
   }
+}
+.noty_theme__mint{
+  border-radius:50px !important;
+  padding-left:8px !important;
 }

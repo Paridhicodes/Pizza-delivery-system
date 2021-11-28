@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\parid\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add bodyParser
+  C:\Program Files\nodejs\node.exe C:\Users\parid\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add noty
 
 PATH: 
   C:\Users\parid\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Git LFS;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\parid\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\bin;C:\Users\parid\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\parid\AppData\Roaming\npm;C:\Users\parid\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\Users\parid\AppData\Local\Programs\Hyper\resources\bin;C:\Program Files\heroku\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
@@ -14,17 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/bodyParser: Not found
-      at Request.params.callback [as _callback] (C:\Users\parid\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
-      at Request.self.callback (C:\Users\parid\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
-      at Request.emit (events.js:315:20)
-      at Request.<anonymous> (C:\Users\parid\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
-      at Request.emit (events.js:315:20)
-      at IncomingMessage.<anonymous> (C:\Users\parid\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
-      at Object.onceWrapper (events.js:421:28)
-      at IncomingMessage.emit (events.js:327:22)
-      at endReadableNT (internal/streams/readable.js:1327:12)
-      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+  Error: EPERM: operation not permitted, unlink 'C:\Users\parid\OneDrive\Documents\GitHub\Pizza-delivery-system\node_modules\node\bin\node.exe'
 
 npm manifest: 
   {
@@ -43,6 +33,7 @@ npm manifest:
     "license": "ISC",
     "dependencies": {
       "axios": "^0.24.0",
+      "body-parser": "^1.19.0",
       "connect-mongo": "^4.6.0",
       "dotenv": "^10.0.0",
       "ejs": "^3.1.6",
@@ -51,12 +42,14 @@ npm manifest:
       "express-flash": "^0.0.2",
       "express-session": "^1.17.2",
       "mongoose": "^6.0.13",
+      "node": "^17.1.0",
+      "session": "^0.1.0",
       "tailwindcss": "^2.2.19"
     },
     "devDependencies": {
       "cross-env": "^7.0.3",
       "install": "^0.13.0",
-      "laravel-mix": "^6.0.37",
+      "laravel-mix": "^6.0.39",
       "nodemon": "^2.0.14",
       "resolve-url-loader": "4.0.0",
       "sass": "^1.43.4",
@@ -1579,7 +1572,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-5.2.0.tgz#358860674396c6997771a9d051fcc1b57d4ae002"
     integrity sha512-D7iWRBvnZE8ecXiLj/9wbxH7Tk79fAh8IHaTNq1RWRixsS02W+5qS+iE9yq6RYl0asXx5tw0bLhmT5pIfbSquw==
   
-  body-parser@1.19.0:
+  body-parser@1.19.0, body-parser@^1.19.0:
     version "1.19.0"
     resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.19.0.tgz#96b2709e57c9c4e09a6fd66a8fd979844f69f08a"
     integrity sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw==
@@ -2503,6 +2496,11 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/didyoumean/-/didyoumean-1.2.2.tgz#989346ffe9e839b4555ecf5666edea0d3e8ad037"
     integrity sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==
   
+  diff@^4.0.1:
+    version "4.0.2"
+    resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
+    integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
+  
   diffie-hellman@^5.0.0:
     version "5.0.3"
     resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -2848,6 +2846,11 @@ Lockfile:
       utils-merge "1.0.1"
       vary "~1.1.2"
   
+  eyes@~0.1.6:
+    version "0.1.8"
+    resolved "https://registry.yarnpkg.com/eyes/-/eyes-0.1.8.tgz#62cf120234c683785d902348a800ef3e0cc20bc0"
+    integrity sha1-Ys8SAjTGg3hdkCNIqADvPgzCC8A=
+  
   fast-deep-equal@^3.1.1:
     version "3.1.3"
     resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
@@ -3063,7 +3066,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz#c75297087c851b9a578bd217dd59a92f59fe546e"
     integrity sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==
   
-  glob@^7.0.0, glob@^7.1.3, glob@^7.2.0:
+  glob@^7.0.0, glob@^7.1.2, glob@^7.1.3, glob@^7.2.0:
     version "7.2.0"
     resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
     integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
@@ -3828,10 +3831,10 @@ Lockfile:
     dependencies:
       asn1.js "^5.4.1"
   
-  laravel-mix@^6.0.37:
-    version "6.0.37"
-    resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.37.tgz#43e953399b66cb5205ed2b7c23cbb3fd0315f2f4"
-    integrity sha512-mue45XrV7nGGvueP7b5mPlTsT3PUDiaTov1B11OnIr+BzaJXMMmf/r3qLRB4dmbXb5WgoQdk/3tVxZ49b2prbQ==
+  laravel-mix@^6.0.39:
+    version "6.0.39"
+    resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.39.tgz#166090f44bc3fe14de4d013e8dd975e3ccd1c42e"
+    integrity sha512-ChTRKSNx9ViD3Xw1+BDQUZ0PLETcBrXlM7vNmomoDUZBXLUurVUJ9oaRUdGmH/WENNqL0qQ8FFxjq+6U368Nlg==
     dependencies:
       "@babel/core" "^7.15.8"
       "@babel/plugin-proposal-object-rest-spread" "^7.15.6"
@@ -4242,6 +4245,11 @@ Lockfile:
       lower-case "^2.0.2"
       tslib "^2.0.3"
   
+  node-bin-setup@^1.0.0:
+    version "1.0.6"
+    resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
+    integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
+  
   node-emoji@^1.11.0:
     version "1.11.0"
     resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-1.11.0.tgz#69a0150e6946e2f115e9d7ea4df7971e2628301c"
@@ -4299,6 +4307,13 @@ Lockfile:
     version "2.0.1"
     resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.1.tgz#3d1d395f204f1f2f29a54358b9fb678765ad2fc5"
     integrity sha512-CqyzN6z7Q6aMeF/ktcMVTzhAHCEpf8SOarwpzpf8pNBY2k5/oM34UHldUwp8VKI7uxct2HxSRdJjBaZeESzcxA==
+  
+  node@^17.1.0:
+    version "17.1.0"
+    resolved "https://registry.yarnpkg.com/node/-/node-17.1.0.tgz#a18a8f388e78381dbaeb00ae7a4414e99fa1ca79"
+    integrity sha512-1gg810R7sKtFkCYMdIhOyYDCuRJZyLvP+lTX8Z9AMAiUdHPoeNu0KQN59CzBud5L/vMtFPkbsCwWOy1aTYOL8g==
+    dependencies:
+      node-bin-setup "^1.0.0"
   
   nodemon@^2.0.14:
     version "2.0.14"
@@ -5484,6 +5499,13 @@ Lockfile:
       parseurl "~1.3.3"
       send "0.17.1"
   
+  session@^0.1.0:
+    version "0.1.0"
+    resolved "https://registry.yarnpkg.com/session/-/session-0.1.0.tgz#6ae9aa6f26093be31ed2005bcd426ae80aa3a085"
+    integrity sha1-aumqbyYJO+Me0gBbzUJq6AqjoIU=
+    dependencies:
+      vows "*"
+  
   setimmediate@^1.0.4:
     version "1.0.5"
     resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
@@ -6088,6 +6110,15 @@ Lockfile:
     version "1.1.2"
     resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
     integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+  
+  vows@*:
+    version "0.8.3"
+    resolved "https://registry.yarnpkg.com/vows/-/vows-0.8.3.tgz#36e353c2bca3a93902fc32eb8c5baab2e3a93f10"
+    integrity sha512-PVIxa/ovXhrw5gA3mz6M+ZF3PHlqX4tutR2p/y9NWPAaFVKcWBE8b2ktfr0opQM/qFmcOVWKjSCJVjnYOvjXhw==
+    dependencies:
+      diff "^4.0.1"
+      eyes "~0.1.6"
+      glob "^7.1.2"
   
   vue-style-loader@^4.1.3:
     version "4.1.3"
