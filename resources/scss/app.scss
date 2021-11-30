@@ -102,7 +102,9 @@
  .last-item{
     background: #ffa36c;
   }
-  
+  .logo{
+    display:inline-block;
+  }
   /* brand */
   /* .navbar-brand {
     font-family: "Nosifer", cursive;
@@ -131,8 +133,9 @@
     font-size: 1.7rem;
   }
   .logo {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
+    padding-bottom:2px;
   }
   
   /* reviews section */
@@ -193,12 +196,7 @@
     /* color:#ffa36c; */
   }
   
-  /* sec3 */
-  #sec3 {
-    height: 700px;
-    background-color: rgba(121, 5, 5, 0.9);
-    text-align: center;
-  }
+ 
   .footer-heading {
     color: #f6eec9;
     font-family: "Courgette", cursive;
@@ -481,4 +479,87 @@
 .noty_theme__mint{
   border-radius:50px !important;
   padding-left:8px !important;
+}
+
+a.link{
+  color:$orange;
+}
+ /* sec3 */
+ #sec3 {
+  // height: 1000px;
+  background-color: rgba(121, 5, 5, 0.9);
+  text-align: center;
+}
+.review .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  margin-top:100px;
+}
+
+.review .box-container .box{
+  text-align: center;
+  padding:1rem;
+  border:0.5rem solid $green;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+  border-radius: .5rem;
+  flex:1 1 10rem;
+  background:#333;
+  margin-top: 6rem;
+  margin-right:20px;
+  // margin-left:20px;
+  // margin-right:2rem;
+}
+
+.review .box-container .box img{
+  height: 8rem;
+  width:8rem;
+  border-radius: 50%;
+  border:0.5rem solid $primary;
+  margin-top: -8rem;
+  object-fit: cover;
+  // text-align:center;
+}
+
+.review .box-container .box h3{
+  font-size: 2rem;
+  color:#fff;
+  padding:.5rem 0;
+  color:$primary;
+}
+
+.review .box-container .box .stars i{
+  font-size: 1rem;
+  color:$orange;
+  padding:.5rem 0;
+}
+
+.review .box-container .box p{
+  font-size: 1rem;
+  color:#eee;
+  padding:1rem 0;
+  font-family: "Mali", cursive;
+  color:$primary;
+}
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+.icon-row {
+  padding-bottom: 10px;
+}
+
+#copyright{
+  margin-top:1rem;
+  font-size:1rem;
+  font-family: "Mali", cursive;
+}
+i{
+  color:$orange;
+  transition:$smooth;
+  &:hover{
+   
+    color:$primary;
+    text-decoration:none !important;
+  }
 }
