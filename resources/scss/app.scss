@@ -553,6 +553,7 @@ a.link{
   margin-top:1rem;
   font-size:1rem;
   font-family: "Mali", cursive;
+  color:$green;
 }
 i{
   color:$orange;
@@ -562,4 +563,23 @@ i{
     color:$primary;
     text-decoration:none !important;
   }
+}
+
+.order-body{
+  background-color:$primary;
+}
+.admin-table>*{
+  background-color:$primary !important;
+ 
+  border:2px solid $green !important;
+}
+.cust-table >*{
+  background-color:$primary;
+  border:2px solid $green !important;
+}
+// #orderTableBody{
+//   border:2px solid $green !important;
+// }
+.main-admin-table{
+  margin-bottom:2rem;
 }

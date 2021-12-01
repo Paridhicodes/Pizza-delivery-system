@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Orders</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <%- include('../link_layout') -%>
+        <link rel="stylesheet" href="">
+    </head>
+    <body class="order-body">
+        <%- include('../layout')-%>
+        <section class="orders light-section">
+            <div class="container mx-auto pt-12">
+                <h1 class="font-bold text-xl mb-4 text-center">All orders</h1>
+                <table class="w-full table-auto bg-white admin-table main-admin-table">
+                    <thead class="admin-table">
+                        <tr>
+                            <th class="px-4 py-2 text-left ">Orders</th>
+                            <th class="px-4 py-2 text-left">Customer</th>
+                            <th class="px-4 py-2 text-left">Address</th>
+                            <th class="px-4 py-2 text-left">Status</th>
+                            <th class="px-4 py-2 text-left">Placed at</th>
+                            <th class="px-4 py-2 text-left">Payment Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="orderTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+        <%- include('../footer.ejs') %> 

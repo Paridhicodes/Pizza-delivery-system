@@ -834,6 +834,7 @@ a.link {
   margin-top: 1rem;
   font-size: 1rem;
   font-family: "Mali", cursive;
+  color: #799351;
 }
 
 i {
@@ -843,4 +844,22 @@ i {
 i:hover {
   color: #f6eec9;
   text-decoration: none !important;
+}
+
+.order-body {
+  background-color: #f6eec9;
+}
+
+.admin-table > * {
+  background-color: #f6eec9 !important;
+  border: 2px solid #799351 !important;
+}
+
+.cust-table > * {
+  background-color: #f6eec9;
+  border: 2px solid #799351 !important;
+}
+
+.main-admin-table {
+  margin-bottom: 2rem;
 }
