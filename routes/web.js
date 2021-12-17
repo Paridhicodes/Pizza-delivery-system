@@ -26,6 +26,8 @@ app.get('/cart',cartController().index)
 app.post('/update-cart',cartController().update)
 app.post('/orders',auth,orderController().store)
 app.get('/customers/orders',auth,orderController().index)
+app.get('/customers/orders/:id',auth,orderController().show)
+
 
 //Admin routes
 app.get('/admin/orders',admin,adminOrderController().index);
